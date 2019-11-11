@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <h1>RON JOSEPH N. CECILIO</h1>
+    <table class="table-20">
+      <tr>
+        <th class="text-right"><i class="fas fa-mobile-alt"></i> Mobile Number:</th>
+        <td>+639162550025</td>
+      </tr>
+      <tr>
+        <th class="text-right"><i class="fas fa-envelope-square"></i> Email:</th>
+        <td><a class="main" href="#">ron.joseph.cecilio@gmail.com</a></td>
+      </tr>
+      <tr>
+        <th class="text-right"><i class="fab fa-facebook-square"></i> Facebook:</th>
+        <td><a class="main" href="https://www.facebook.com/rjmoinkies">RJ Cecilio</a></td>
+      </tr>
+    </table>
+  </header>
+  <div class="content">
+    <hr>
+    <h2><i class="fas fa-user-circle"></i> ABOUT ME</h2>
+    <hr>
+    <section id="about">
+      <p class="text-left" style="margin: 20px;">I am not an outgoing type of person and would rather stay at home with
+        a game, movie, or
+        book.
+        As a person, I still try to go out or try to be outgoing to the best of my ability and am happy whenever
+        another
+        person sees me as that type.
+      </p>
+    </section>
+    <section id="education">
+      <hr>
+      <h2><i class="fas fa-graduation-cap"></i> EDUCATIONAL BACKGROUND</h2>
+      <hr>
+      <ul>
+        <li>
+          <h4>PREPARATORY</h4>
+          Small World Christian School (2001-2003)
+        </li>
+        <li>
+          <h4>PRIMARY</h4>
+          Saint Louis University - Laboratory Elementary School (2003-2009)
+        </li>
+        <li>
+          <h4>SECONDARY</h4> Saint Louis University – Laboratory High School (2009-2013)
+        </li>
+        <li>
+          <h4>TERTIARY</h4> Saint Louis University (2013-2018) , University of the Cordilleras (2019-Present)
+        </li>
+      </ul>
+    </section>
+
+    <section id="experiences">
+      <hr>
+      <h2><i class="fas fa-briefcase"></i> WORK EXPERIENCES</h2>
+      <hr>
+      <ul>
+        <li>
+          <h4>MANAGER</h4>
+          Global English Training Society
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <hr>
+      <h2><i class="fas fa-users"></i> ORGANIZATIONS</h2>
+      <hr>
+      <ul>
+        <li>Global English Training Society Incorporated (GETS Inc.)</li>
+        <li>United Arthitects of the Philippines Students Auxiliary (UAPSA) – Saint Louis University</li>
+        <li>United Arthitects of the Philippines Students Auxiliary (UAPSA) – University of the Cordilleras</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <hr>
+      <h2><i class="fas fa-shapes"></i> SKILLS AND TALENTS</h2>
+      <hr>
+      <ul>
+        <li>Athletic</li>
+        <li>Digital Image Design</li>
+        <li>Hand Drawing</li>
+      </ul>
+    </section>
+
+    <section id="references">
+      <hr>
+      <h2><i class="fas fa-address-book"></i> REFERENCES</h2>
+      <hr>
+      <ul>
+        <li>Ralph Cecilio - 09121212122</li>
+        <li>James Espeso (insert mobile num)</li>
+        <li>Joshua Manalastas (insert mobile num)</li>
+        <li>Jessie Malong (insert mobile num)</li>
+      </ul>
+    </section>
+
+    <section id="favorites">
+      <hr>
+      <h2><i class="fas fa-star"></i> HOBBIES AND FAVORITES</h2>
+      <hr>
+      <ul>
+        <li>Making any form of art</li>Making any form of art
+        <li>Collecting and playing video games</li>
+        <li>Trying out new sports and working out</li>
+        <li>Watching 'Sword Art Online' (Favorite Show)</li>
+
+      </ul>
+    </section>
+
+    <section id="portfolio">
+      <hr>
+      <h2><i class="fas fa-palette"></i> SOME OF MY WORKS</h2>
+      <hr>
+
+      <div class="slider-content slider-display-container">
+          <img class="mySlides" src="Images/1.jpg" style="width:100%">
+          <img class="mySlides" src="Images/2.jpg" style="width:100%">
+          <img class="mySlides" src="Images/3.jpg" style="width:100%">
+          <img class="mySlides" src="Images/4.jpg" style="width:100%">
+          <img class="mySlides" src="Images/5.jpg" style="width:100%">
+          <img class="mySlides" src="Images/6.jpg" style="width:100%">
+          <img class="mySlides" src="Images/7.jpg" style="width:100%">
+          <img class="mySlides" src="Images/8.jpg" style="width:100%">
+          <img class="mySlides" src="Images/9.jpg" style="width:100%">
+          <img class="mySlides" src="Images/10.jpg" style="width:100%">
+          <img class="mySlides" src="Images/11.jpg" style="width:100%">
+          <img class="mySlides" src="Images/12.jpg" style="width:100%">
+        
+          <button class="slider-button slider-black slider-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="slider-button slider-black slider-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </section>
+
+
+  </div>
+</body>
+<script src="https://kit.fontawesome.com/a17695ba0d.js" crossorigin="anonymous"></script>
+<script src="slider.js"></script>
+</html>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+</script>
